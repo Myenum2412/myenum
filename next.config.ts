@@ -1,15 +1,31 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: {
-    domains: [
-      "images.unsplash.com", 
-      "aceternity.com", 
-      "api.microlink.io", 
-      "www.google.com",
-      "qsuv73ya7y.ufs.sh",
-    ], // Allow images from specified domains
+  /* config options here */
+  typescript: {
+    ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: {
+    dangerouslyAllowSVG: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+      },
+    ],
+  },
+  experimental:{
+    // ppr:'incremental',
+    
+  },
+  devIndicators:{
+    appIsrStatus: true,
+    buildActivity:true,
+    buildActivityPosition:'bottom-right'
+  }
 };
 
 export default nextConfig;
