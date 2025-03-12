@@ -29,18 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-        {/* Google Analytics Tag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XV0FPF58NV"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-XV0FPF58NV');
-            `,
-          }}
-        />
+        <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-S8EE8Y6F45"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S8EE8Y6F45');</script>
       </Head>
       <body>
         <ThemeProvider
