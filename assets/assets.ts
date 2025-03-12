@@ -120,6 +120,6 @@ export const testimonials = [
     "Huma Spices brings you the finest handpicked spices, packed with rich flavor, authenticity, and natural health benefits.",
     name: "Huma Spices",
     designation: "",
-    src: "https://qsuv73ya7y.ufs.sh/f/fNtsXLDRapsO9rIsLb5SjZTM5NguafB2rvhDoC1zqLK8RAxb",
+    src: "https://qsuv73ya7y.ufs.sh/f/fNtsXLDRapsONM0ywgd5Rriq1SekcaXEzPy2FOswQTbNULMj",
   },
 ]
