@@ -87,7 +87,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/myenum"
+                  href="https://www.youtube.com/channel/UCpGnUW_i_lqFFJRyHTLqoTA"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
