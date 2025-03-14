@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import DashBoard from "@/assets/homepage/dashboard.png"
 import { WobbleCard } from "@/components/ui/wobble-card";
 
 export function WobbleCardDemo() {
@@ -20,7 +21,7 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <Image
-          src="/branding.webp"
+          src={DashBoard}
           width={500}
           height={500}
           alt="branding demo image"
@@ -42,12 +43,12 @@ export function WobbleCardDemo() {
             Get Started Today!
           </h2>
           <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-            Whether you're launching a new brand or scaling an existing one, we
+            Whether you are launching a new brand or scaling an existing one, we
             provide the tools and expertise to accelerate your growth.
           </p>
         </div>
         <Image
-          src="/digital-marketing.webp"
+          src={DashBoard}
           width={500}
           height={500}
           alt="digital marketing demo image"
