@@ -47,11 +47,13 @@ const Footer = () => {
           <div className="flex flex-col col-span-2 max-sm:col-auto gap-8">
             <h2 className="text-3xl font-normal">Our Newsletter</h2>
             <div className="flex ">
-              <Input
-                type="email"
-                className=" rounded-none h-full p-5"
-                placeholder="Your Email Address"
-              />
+            <a
+            href="mailto:myenumam@gmail.com"
+            className="block rounded-none h-full p-5 bg-white text-black border border-gray-300"
+            >
+              newsletter@myenum.in
+            </a>
+
               <Button className="w-[20%] h-full font-normal rounded-none border bg-transparent  text-white">
                 {/* <Button className="w-[20%] h-full font-normal rounded-none bg-gold text-white hover:bg-[#9D8A39]  max-xl:text-xl max-lg:text-[16px] max-md:text-[8px] max-md:p-2  max-sm:p-2 "> */}
                 <SiMinutemailer className="text-xl" />
@@ -96,7 +98,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="linkedin.com/in/myenum-am-45aa56349"
+                  href="https://www.linkedin.com/in/myenum-am-45aa56349"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -128,13 +130,13 @@ const Footer = () => {
               <Link href={"/privacy"}>
                 <li>Privacy Policy</li>
               </Link>
-              <Link href={"/Support"}>
+              <Link href={"/support"}>
                 <li>Support</li>
               </Link>
-              <Link href={"/Disclaimer"}>
+              <Link href={"/disclaimer"}>
                 <li>Disclaimer</li>
               </Link>
-              <Link href={"/Terms&Conditions"}>
+              <Link href={"/terms&Conditions"}>
                 <li>Terms & Conditions</li>
               </Link>
             </ul>
