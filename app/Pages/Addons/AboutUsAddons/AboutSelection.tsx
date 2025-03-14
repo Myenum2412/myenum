@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { LinkPreview } from "@/components/ui/link-preview"; 
 import { FlipText } from "@/components/magicui/flip-text";
+import { SpinningTextBasic } from "../HomeAddons/SpinningTextBasic";
 import myImage from "@/assets/about/about.png"; 
 import AboutPic from "@/assets/about/aboutpic1.jpg" // Adjust the path based on your file structure
 
