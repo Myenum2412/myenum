@@ -167,7 +167,7 @@ const Footer = () => {
         </div>
         <div className="border-b mt-1 "></div>
         <p className="text-center text-neutral-600 mt-10">
-          © 2025 mynum services. All rights reserved
+          © 2025 myenum services. All rights reserved
         </p>
       </div>
     </footer>
